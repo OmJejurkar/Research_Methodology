@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+mcq-practice/node_modules/
+
+# Production build artifacts
+dist/
+mcq-practice/dist/
+dist-ssr/
+build/
+
+# PDFs and Documents (Course captures, personal documents, receipts)
+*.pdf
+Payment Status.pdf
+screencapture*.pdf
+
+# OCR and Extraction Temporary Data & Images
+pdf_images/
+extracted_text.txt
+Quiz_All.txt
+*.png
+*.jpg
+*.jpeg
+
+# Python temporary files & scripts (OCR extraction scripts)
+extract_ocr.py
+extract_pdfs.py
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Environment and Local Settings
+.env
+.env.local
+.env.*.local
+*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor & OS Metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
